@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team Showcase</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .member-card {
+      width: 300px;
+      margin: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .member-card:hover {
+      transform: scale(1.05);
+    }
+
+    .member-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .member-details {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Meet Our Amazing Team</h1>
+    <p>Get to know the talented individuals behind our success</p>
+  </header>
+
+  <div class="team-container">
+    <div class="member-card">
+      <img src="maths.png" alt="Himanshu sir">
+      <div class="member-details">
+        <h2>Himanshu Agarwal</h2>
+        <p>Maths Lecturer</p>
+        <p>He will make you love mathematics.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+
+    <div class="member-card">
+      <img src="websir.png" alt="Bijendra Sir">
+      <div class="member-details">
+        <h2>Brijendra Pal Singh</h2>
+        <p>Web Developer Lecturer</p>
+        <p>Web Development made easy.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+
+    <div class="member-card">
+      <img src="python.png" alt="Kamini Madam">
+      <div class="member-details">
+        <h2>Kamini Sharma</h2>
+        <p>Python Pro</p>
+        <p>Jalebi-like Python made straightforward.</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
